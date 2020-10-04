@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+html{
+  background-color: #9DDBAD ;
+}
+
+#home h1{
+  padding-top: 2rem;
+}
+
+#home button{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
