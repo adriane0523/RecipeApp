@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>RecipeApp</h1>
+<p>This was made to learn the MERN stack (Mongo.db, Express.js, React.js, and Node.js). This is a simple web app where users can add recipes to the database and read 
+from them.</p>
+  <br>
+  <p>In more Detail...</p>
+  <p>
+ I created a front end using the React.js
+framework. I created two pages using two routes to render their relative components. One page
+allows me to create a recipe and send it to the database by inputting name and content then
+submitting it with a button using the HTML form. This HTML form calls an API endpoint from
+Node.js: POST localhost:3000/api/item which sends the information in a JSON format. On the
+backend, Node.js is waiting for a request from the frontend. Once it gets a request it will parse
+the JSON, create a new Schema (which like creating a new object to put inside a database), then
+send it to MongoDB to be written into. After successfully writing it in, it will send a JSON
+response saying success.
+The other page will generate recipes from the database. The page will call the API endpoint from
+Node.js backend: GET localhost:3000/api/item which will get a list of recipe items. If the API
+call is a success, it will reference the MongoDB database, get all the items, then it will send a
+JSON response where the front end can parse it and put the information on the page using
+HTML.
+</p>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![asdasd](https://user-images.githubusercontent.com/38186787/118220057-94551a80-b42f-11eb-9aa6-43e8e5ca2a62.PNG)
+![zc](https://user-images.githubusercontent.com/38186787/118220088-a8008100-b42f-11eb-86ee-151846acf069.PNG)
+![sw](https://user-images.githubusercontent.com/38186787/118220114-b77fca00-b42f-11eb-82d3-39aa888e44c3.PNG)
